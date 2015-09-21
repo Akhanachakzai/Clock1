@@ -21,6 +21,10 @@ public class Clock{
 		}
 		public int viewMin(){
 			return mins.viewCount();
+			
+		}
+		public int viewSec(){
+			return secs.viewCount();
 		}
 	      }
 

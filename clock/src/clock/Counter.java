@@ -10,6 +10,9 @@ public class Counter {
 	      }
 	      public void increment( ){
 	      count ++;
+	      
+	      
+	      
 	      if(count==base)
 	      {
 	    	  reset();
