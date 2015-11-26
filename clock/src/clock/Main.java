@@ -8,7 +8,8 @@ public class Main {
 		for (int x=0;x<=1000;x++){
 			obj.tick();
 			System.out.print(obj.viewHr()+":"+obj.viewMin());
-			System.out.print(":"+obj.viewSec());
+			System.out.println(":"+obj.viewSec());
+			System.out.flush();
 		}
 		// TODO Auto-generated method stub
 
